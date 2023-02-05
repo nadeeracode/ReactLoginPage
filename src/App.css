@@ -1,0 +1,102 @@
+body {
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.App {
+  width: 500px;
+}
+
+.LoginBranding_Card{
+  display: flex;
+  margin: auto;
+  min-width: 200px;
+  width: 100%;
+  justify-content: center;
+  background-color: rgb(178, 186, 242);
+}
+
+.LoginBranding_Logo {
+  display: flex;
+  height: 50px;
+  margin: auto;
+}
+
+.LoginBranding_Text {
+  display: flex;
+  margin: auto;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+  font-size: xx-large;
+  font-style: normal;
+  color: #2012a6;
+}
+
+.LoginForm_Card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.LoginForm_Username {
+  background-color: white;
+  padding-top: 10px;
+  padding-left: 15px;
+  margin-top: 10px;
+  line-height: 24px;
+  padding-bottom: 5px;
+  font-size: 20px;
+}
+
+.LoginForm_Password {
+  background-color: white;
+  padding-top: 10px;
+  padding-left: 15px;
+  margin-top: 10px;
+  line-height: 24px;
+  padding-bottom: 5px;
+  font-size: 20px;
+}
+
+.LoginForm_Button{
+  margin-top: 20px;
+  line-height: 24px;
+  padding-bottom: 5px;
+  font-size: 20px;
+  background-color: rgb(178, 186, 242);
+  box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.75);
+}
+
+.LoginHelp_Card{
+  display: flex;
+  flex-direction: column;
+}
+
+.LoginHelp_ForgotPassword{
+  margin-top: 20px;
+  line-height: 20px;
+  padding-bottom: 5px;
+  font-size: 16px;
+}
+
+
+.LoginHelp_Text{
+  margin-top: 20px;
+  line-height: 20px;
+  padding-bottom: 5px;
+  font-size: 16px;
+}
+
+.LoginFooter_Card{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+  width: 100%;
+  height: 50px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 10px;
+}
