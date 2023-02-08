@@ -2,7 +2,7 @@ function LoginForm() {
     return(
         <div className="LoginForm_Card">
             <div className="LoginForm_Text">
-                Login
+                Welcome to Sample login app.
             </div>
             <input
                 type="text"
